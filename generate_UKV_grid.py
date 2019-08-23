@@ -57,7 +57,7 @@ def plot_domain(fig,m):
     fig.tight_layout()
     fname = "check_domain.png"
     fig.savefig(fname)
-    fig.close()
+    plt.close(fig)
     return
 
 def export_latlon_to_npy(m,lats=True,lons=True):
