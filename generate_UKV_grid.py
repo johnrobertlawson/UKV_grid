@@ -35,8 +35,8 @@ def create_basemap():
     # JRL: NEED TO KNOW THIS
     # lat_0 = 0.0
     # lon_0 = 0.0
-    lat_0 = 53.0
-    lon_0 = -2.0
+    lat_0 = 50.0
+    lon_0 = -0.0
 
     # While we're here, create a figure axis for plotting, if desired 
     fig, ax = plt.subplots(1)
